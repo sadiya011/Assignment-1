@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="css/custom/style.css">
+</head>
+<body>
+<div class="container-fluid m-0 p-0">
+
+  <!-- page 1 -->
+  <div class="main hero">
+
+    <!-- Background Video -->
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="img/video.mp4" type="video/mp4">
+    </video>
+
+    <!-- Header -->
+    <div class="d-flex flex-wrap justify-content-between align-items-center pt-4 container">
+      
+      <div>
+        <h1 class="fs-5 mt-2 text-light">NAKHEEL</h1>
+      </div>
+      
+      <div>
+        <button type="button" class="btn btn-info rounded-5 px-4 py-2">
+          Contact Us
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Hero Content -->
+    <div class="hero-content pt-4 container">
+
+      <h1 class="fw-bold text-light mt-4 display-6 display-md-4">
+        A Premium Real Estate Brand
+      </h1>
+      
+      <p class="mb-4 mt-3 fs-6 fs-md-5 text-light">
+        Specializing in wider luxury markets & creating spaces that blend innovation, nature & luxury.
+      </p>
+
+      <!-- Modal Button -->
+      <button 
+      type="button"
+      class="btn btn-info rounded-1 px-4 py-2 mt-3"
+      data-bs-toggle="modal"
+      data-bs-target="#mymodal">
+        Download Brochure
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="mymodal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down">
+    <div class="modal-content">
+
+      <!-- Modal Body -->
+      <div class="modal-body p-4">
+
+        <div class="d-flex justify-content-end">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <h3 class="fw-bold">Download Brochure</h3>
+        <p>Get a detailed view of Soulever property</p>
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Enter name*</label> 
+            <input type="text" class="form-control">
+          </div>
+    <div class="mb-3">
+  <label class="form-label">Enter mobile number*</label>
+
+  <div class="input-group">
+
+    <select class="form-select" style="max-width:120px;">
+      <option value="+91">+91 </option>
+      <option value="+1">+1</option>
+      <option value="+44">+44</option>
+      <option value="+971">+971</option>
+      <option value="+61">+61</option>
+      <option value="+81">+81</option>
+    </select>
+
+    <input type="tel" class="form-control" placeholder="Enter mobile number">
+
+  </div>
+
+</div>
+
+          <div class="mb-3">
+            <label class="form-label">Enter email*</label>
+            <input type="email" class="form-control">
+          </div>
+        </form>
+
+        <!-- Contact Options -->
+        <div class="d-flex flex-wrap align-items-center gap-3 mb-4">
+
+          <p class="mb-0">Preferred modes of contact</p>
+
+          <div>
+            <input type="checkbox" id="contact1" style="accent-color:#1B3355;">
+            <label for="contact1">Email</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="contact2" style="accent-color:#1B3355;">
+            <label for="contact2">Phone</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="contact3" style="accent-color:#1B3355;">
+            <label for="contact3">Whatsapp</label>
+          </div>
+
+        </div>
+
+        <button class="btn text-light px-2 py-2 rounded-0 w-md-auto" style="background-color:#1B3355">
+          Request Brochure
+        </button>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--page 2-->
+<div class="container-fluid p-0" style="background:#0B1320;">
+
+<div class="container py-5">
+
+<div class="row align-items-center g-4">
+
+<div class="col-12 col-lg-6 text-center">
+<img src="img/sky.jpg" class="img-fluid rounded">
+</div>
+
+<div class="col-12 col-lg-6 text-light">
+
+<h2 class="text-decoration-underline">
+About Dubai Maritime City
+</h2>
+
+<p class="mt-3">
+Borem ipsum dolor sit amet, consectetur adipiscing elit.
+Nunc vulputate libero et velit interdum.
+</p>
+
+<button class="btn btn-outline-light mt-3 px-4">
+Get In Touch →
+</button>
+
+</div>
+</div>
+</div>
+</div>
+
+<!--page 3-->
+
+<div class="py-5" style="background-color:#0B1320;">
+
+  <div class="container">
+
+    <h2 class="text-light mb-4">
+      Why Choose Dubai Maritime City?
+    </h2>
+
+    <div class="row g-4">
+
+      <!-- card 1 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="p-4 text-white rounded-3 h-100" style="background-color:#1B3355;">
+          
+          <img src="img/globe 1.png" class="img-fluid d-block mx-auto mb-3">
+
+          <h5 class="text-center">
+            High Investment Potential
+          </h5>
+
+          <p class="text-center mb-0">
+            Borem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+            Nunc vulputate libero et velit
+            interdum.
+          </p>
+
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="p-4 text-white rounded-3 h-100" style="background-color:#1B3355;">
+          
+          <img src="img/globe 1.png" class="img-fluid d-block mx-auto mb-3">
+
+          <h5 class="text-center">
+            Rich Leisure and Tourism
+          </h5>
+
+          <p class="text-center mb-0">
+            Borem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+            Nunc vulputate libero et velit
+            interdum.
+          </p>
+
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="p-4 text-white rounded-3 h-100" style="background-color:#1B3355;">
+          
+          <img src="img/globe 1.png" class="img-fluid d-block mx-auto mb-3">
+
+          <h5 class="text-center">
+            Prime Connected Location
+          </h5>
+
+          <p class="text-center mb-0">
+            Borem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+            Nunc vulputate libero et velit
+            interdum.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- page 4 -->
+<div style="background-color:#1B3355;">
+<div class="container py-5">
+
+<!-- 1 section -->
+<div class="row align-items-center g-4 py-5">
+
+<div class="col-12 col-lg-6 text-light">
+
+<h4>Kanyon</h4>
+
+<p>
+A living environment shaped by movement and light. Designed to
+embrace air, movement, and the fluid essence of space.
+</p>
+
+<div class="row mt-4 g-3">
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector.png" class="img-fluid">
+<p class="mb-0">Avg. unit area: 906.41 sqm</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector1.png" class="img-fluid">
+<p class="mb-0">Maritime City</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector2.png" class="img-fluid">
+<p class="mb-0">1-3 BR bedroom residences</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/Group.png" class="img-fluid">
+<p class="mb-0">2029</p>
+</div>
+</div>
+
+</div>
+
+<button class="btn btn-info px-4 py-2 mt-4 text-light">
+Download Brochure ↓
+</button>
+
+</div>
+
+<div class="col-12 col-lg-6 text-center">
+<img src="img/image2.png" class="img-fluid w-100">
+</div>
+
+</div>
+
+<!-- 2 section -->
+<div class="row align-items-center g-4 py-5">
+
+<div class="col-12 col-lg-6 text-center">
+<img src="img/image3.png" class="img-fluid w-100">
+</div>
+
+<div class="col-12 col-lg-6 text-light">
+
+<h4>Soulever</h4>
+
+<p>
+A living environment shaped by movement and light.
+</p>
+
+<div class="row mt-4 g-3">
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector.png" class="img-fluid">
+<p class="mb-0">Avg. unit area: 906.41 sqm</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector1.png" class="img-fluid">
+<p class="mb-0">Maritime City</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector2.png" class="img-fluid">
+<p class="mb-0">1-3 BR bedroom residences</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/Group.png" class="img-fluid">
+<p class="mb-0">2029</p>
+</div>
+</div>
+
+</div>
+
+<button class="btn btn-info px-4 py-2 mt-4 text-light">
+Download Brochure ↓
+</button>
+
+</div>
+
+</div>
+
+<!-- 3 section -->
+<div class="row align-items-center g-4 py-5">
+
+<div class="col-12 col-lg-6 text-light">
+
+<h4>Talea</h4>
+
+<p>
+A living environment shaped by movement and light.
+</p>
+
+<div class="row mt-4 g-3">
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector.png" class="img-fluid">
+<p class="mb-0">Avg. unit area: 906.41 sqm</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector1.png" class="img-fluid">
+<p class="mb-0">Maritime City</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector2.png" class="img-fluid">
+<p class="mb-0">1-3 BR bedroom residences</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/Group.png" class="img-fluid">
+<p class="mb-0">2029</p>
+</div>
+</div>
+
+</div>
+
+<button class="btn btn-info px-4 py-2 mt-4 text-light">
+Download Brochure ↓
+</button>
+
+</div>
+
+<div class="col-12 col-lg-6 text-center">
+<img src="img/image4.png" class="img-fluid w-100">
+</div>
+
+</div>
+
+<!-- 4 section -->
+<div class="row align-items-center g-4 py-5">
+
+<div class="col-12 col-lg-6 text-center">
+<img src="img/image5.png" class="img-fluid w-100">
+</div>
+
+<div class="col-12 col-lg-6 text-light">
+
+<h4>Aria</h4>
+
+<p>
+A living environment shaped by movement and light.
+</p>
+
+<div class="row mt-4 g-3">
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector.png" class="img-fluid">
+<p class="mb-0">Avg. unit area: 906.41 sqm</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector1.png" class="img-fluid">
+<p class="mb-0">Maritime City</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/vector2.png" class="img-fluid">
+<p class="mb-0">1-3 BR bedroom residences</p>
+</div>
+</div>
+
+<div class="col-6">
+<div class="d-flex align-items-center gap-3">
+<img src="img/Group.png" class="img-fluid">
+<p class="mb-0">2029</p>
+</div>
+</div>
+
+</div>
+
+<button class="btn btn-info px-4 py-2 mt-4 text-light">
+Download Brochure ↓
+</button>
+
+</div>
+
+</div>
+
+</div>
+</div>
+<!--page 5-->
+<div class="pt-5 pb-5" style="background-color:#0B1320;">
+
+  <div class="container">
+
+    <!-- youtube video -->
+ <div class="ratio ratio-16x9 mt-4 text-light" >
+    <iframe src="https://www.youtube.com/embed/cDGrvtBmeMg?si=ORRxHyEZzz6LeVtK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" title="YouTube video">
+  </div>
+
+    <!-- map and form columns -->
+    <div class="row pt-5 g-4">
+
+      <!-- map -->
+      <div class="col-md-6">
+        <img src="img/map.png" class="img-fluid">
+      </div>
+
+      <!-- form -->
+      <div class="col-md-6">
+        <h4 class="text-light mb-4">Contact Us</h4>
+
+        <form class="p-4">
+
+          <label class="mb-3 text-light">
+            Claim Your Early Access to New Launches
+          </label>
+
+          <div class="mb-3">
+            <input type="text"
+              class="form-control bg-dark text-light border-info custom-placeholder"
+              placeholder="Enter your full name">
+          </div>
+
+          <div class="mb-3">
+            <input type="text"
+              class="form-control bg-dark text-light border-info custom-placeholder"
+              placeholder="Enter your mobile number">
+          </div>
+
+          <div class="mb-3">
+            <input type="email"
+              class="form-control bg-dark text-light border-info custom-placeholder"
+              placeholder="Email id">
+          </div>
+
+          <div class="mb-3">
+            <textarea
+              class="form-control bg-dark text-light border-info custom-placeholder"
+              rows="3"
+              placeholder="Message"></textarea>
+          </div>
+
+          <button type="submit"
+            class="btn btn-info rounded-1 py-2 px-5 mt-3 w-100 text-light">
+            Submit
+          </button>
+
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<!--footer-->
+<footer class="footer-section text-light py-4 " style="background-color:#1B3355">
+  <div class="container text-center">
+
+    <!-- Copyright -->
+    <p class="mb-2 small">
+      Copyright © 2026 Alchemy Properties L.L.C. All Rights Reserved.
+    </p>
+
+    <!-- Disclaimer -->
+    <p class="small px-3">
+      <strong>Disclaimer:</strong> We are an officially authorized channel partner of the respective Boyond property developers featured on this website. 
+      All information provided, including project details, prices, and availability, is for general information purposes only and is subject to change without notice. 
+      The images and visual representations used on this landing page are for illustration purposes only and may not accurately reflect the actual properties.
+      For the latest project details, please contact us directly or refer to the official developer sources.
+    </p>
+
+    <!-- Footer Links -->
+    <div class="d-flex flex-wrap justify-content-center gap-4 small mt-3">
+      <a href="#" class="text-light text-decoration-none">Cookie Policy</a>
+      <a href="#" class="text-light text-decoration-none">Terms & Condition</a>
+      <a href="#" class="text-light text-decoration-none">Privacy policy</a>
+      <a href="#" class="text-light text-decoration-none">hey@alchemy.com</a>
+      <a href="#" class="text-light text-decoration-none">+911111111111</a>
+      <a href="#" class="text-light text-decoration-none">www.domain.com</a>
+    </div>
+  </div>
+  
+</footer>
+
+</body>
+</html>
+

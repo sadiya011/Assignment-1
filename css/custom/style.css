@@ -1,0 +1,39 @@
+.hero{
+  position: relative;
+  height: 786px;
+  overflow: hidden;
+}
+
+/* Background Video */
+.hero-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Dark Overlay */
+.hero::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 0;
+}
+.hero-content,.hero,.d-flex{
+  z-index:2;
+  position: relative;
+}
+
+.page2{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.custom-placeholder::placeholder{
+  color:#e0e0e0;
+  opacity:0.7;
+}
